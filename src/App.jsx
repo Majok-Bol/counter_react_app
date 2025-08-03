@@ -11,14 +11,14 @@ function App() {
     // count=count+1;
     setIncrement(increment + 1);
     if(increment>=10){
-      alert("Reached maximum value");
+        alert(`Reached maximum value: ${increment}`);
       setIncrement(increment);
     }
   }
   function handleDecrement() {
     setIncrement(increment - 1);
     if(increment===0){
-      alert("Reached minimum value");
+      alert(`Reached minimum value: ${increment}`);
       setIncrement(increment);
     }
   }
@@ -30,7 +30,7 @@ function App() {
       <button id="decrement" onClick={handleDecrement}>
         Decrement
       </button>
-      <p>{increment}</p>
+      <p id='paragraph'>{increment}</p>
     </>
   );
 }

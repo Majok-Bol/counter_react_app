@@ -1,0 +1,21 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#increment{
+  padding:5px;
+  margin:4px;
+  background-color:#27f59cc0 ;
+}
+#decrement{
+  padding:5px;
+  margin:4px;
+  background-color:#de4d3a75 ;
+}
+#paragraph{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
