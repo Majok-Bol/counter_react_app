@@ -24,6 +24,7 @@ function App() {
   }
   return (
     <>
+    <p id='paragraph-1'>Counter App built with  React</p>
       <button id="increment" onClick={handleIncrement}>
         Increment
       </button>
